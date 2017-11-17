@@ -32,3 +32,6 @@
 `oc new-app -S nexus`
 `oc new-app --image-stream=cicd/nexus:2.14.3`
 
+```
+oc create -f https://raw.githubusercontent.com/OpenShiftDemos/nexus/master/nexus2-persistent-template.yaml
+```
